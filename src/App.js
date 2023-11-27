@@ -12,7 +12,6 @@ function App() {
   return (
     <div className="App">
       <NavBar/> 
-      <hr></hr>
         <Routes>
           <Route path="/all" element={<All/>} />
           <Route path="/fsd" element={<Fsd/>} />

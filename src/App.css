@@ -10,14 +10,14 @@
   display: grid;
   grid-template-columns: repeat(3,1fr);
   gap:30px;
-  margin-top: 20px;
-  /* padding: 20px; */
+  padding: 20px;
   text-align: center;
-
+  background-color: black;
+  color: white;
 }
 
 .card-img-top{
-  width: 488px;
+  width: 400px;
   height: 189px;
 }
 .nav-elements.active{

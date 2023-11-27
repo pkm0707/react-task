@@ -35,7 +35,7 @@ function NavBar() {
 
   return (
 
-    <Nav style={{display:"flex",flexWrap:"wrap",justifyContent:"space-evenly",alignItems:"center"}} activeKey="/" >  
+    <Nav style={{display:"flex",flexWrap:"wrap",justifyContent:"space-evenly",alignItems:"center",backgroundColor:"white",width:"100%",height:"50px",borderBottom:"3px solid red"}} activeKey="/" >  
 
         {navItems.map((item)=>
         {
